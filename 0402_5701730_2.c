@@ -8,7 +8,7 @@ struct term {
     {7.0, 6},{5.0, 3},{9.0, 2},{1.0, 0},
     {5.0, 3},{2.0, 2},{1.0, 1},{10.0, 0}
 };
-int avail = 8;
+int avail = 8;//사용 가능한 항의 인덱스를 나타내는 변수 초기화
 void print_poly(int s, int e);
 void poly_multiply(int As, int Ae, int Bs, int Be, int* Cs, int* Ce);
 
